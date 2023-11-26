@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import Cards from './components/Cards'
 import './App.css'
 
 function App() {
@@ -11,18 +11,7 @@ function App() {
       <h2>High-Score: 0</h2>
     </header>
     <main>
-      <div className="cards">
-        <div className="card"></div>
-        <div className="card"></div>
-        <div className="card"></div>
-        <div className="card"></div>
-        <div className="card"></div>
-        <div className="card"></div>
-        <div className="card"></div>
-        <div className="card"></div>
-        <div className="card"></div>
-        <div className="card"></div>
-      </div>
+      <Cards/>
     </main>
     </>
   )
